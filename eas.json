@@ -25,6 +25,14 @@
       },
       "environment": "development",
       "channel": "development-simulator"
+  },
+ "test": {
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m1-medium",
+        "credentialsSource": "local"
+      },
+      "channel": "test"
     }
   },
   "submit": {
