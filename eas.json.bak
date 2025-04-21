@@ -1,0 +1,16 @@
+{
+  "build": {
+    "production": {
+      "ios": {
+        "credentialsSource": "remote",
+        "distribution": "store"
+      }
+    },
+    "ad-hoc": {
+      "ios": {
+        "credentialsSource": "remote",
+        "distribution": "internal"
+      }
+    }
+  }
+}
