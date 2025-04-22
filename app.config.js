@@ -103,7 +103,7 @@ module.exports = {
     },
     "extra": {
       "eas": {
-        "projectId": EAS_PROJECT_ID
+        "projectId": "69042eea-d78d-42f5-806a-da687e31152f"
       }
     },
     "owner": EXPO_OWNER,
