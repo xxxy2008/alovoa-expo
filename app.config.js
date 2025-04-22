@@ -48,7 +48,7 @@ module.exports = {
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "usesAppleSignIn": true,
+      "usesAppleSignIn": false,
       "bundleIdentifier": "app.lgm.1506",
       "buildNumber": "40",
       "associatedDomains": ["applinks:alovoa.com"],
