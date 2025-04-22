@@ -1,0 +1,20 @@
+name: Generate iOS Project
+on:
+  push:
+    branches:
+      - alovoa-99650fe
+jobs:
+  prebuild:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - run: npm install -g yarn
+      - run: yarn install
+      - run: npx expo prebuild --platform ios
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ios-directory
+          path: ios/
