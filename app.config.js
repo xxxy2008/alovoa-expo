@@ -4,7 +4,7 @@ const EXPO_OWNER = process.env.EXPO_OWNER;
 module.exports = {
   "expo": {
     "name": "Alovoa",
-    "slug": "alovoa-expo",
+    "slug": "alovoa-c4gp9s0yxm9bhh-q9m39c",
     "version": "2.2.2",
     "scheme": "alovoa",
     "orientation": "portrait",
@@ -46,18 +46,13 @@ module.exports = {
     "updates": {
       "enabled": false,
       "checkAutomatically": "ON_ERROR_RECOVERY",
-      "url": EAS_PROJECT_ID ? `https://u.expo.dev/${EAS_PROJECT_ID}` : "https://github.com/Alovoa/alovoa-expo/releases/latest"
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+      "url":  "https://u.expo.dev/8d52660a-fa3a-4e06-b511-0e30a263d991",
+     },
     "ios": {
       "supportsTablet": true,
       "usesAppleSignIn": true,
-      "bundleIdentifier": "com.alovoa.expo",
-      "associatedDomains": [
-        "applinks:alovoa.com"
-      ],
+      "bundleIdentifier": "app.lgm.1506",
+      "associatedDomains": "applinks:alovoa.com",
       "infoPlist": {
         "LSApplicationQueriesSchemes": [
           "alovoa"
@@ -103,10 +98,10 @@ module.exports = {
     },
     "extra": {
       "eas": {
-        "projectId": "69042eea-d78d-42f5-806a-da687e31152f"
-      }
+        "projectId": "8d52660a-fa3a-4e06-b511-0e30a263d991",
+      },
     },
-    "owner": EXPO_OWNER,
+    "owner": "dayitrading001",
     "runtimeVersion": {
       "policy": "appVersion"
     }
